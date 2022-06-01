@@ -4,8 +4,9 @@
 <head>
 <title>Date JSP</title>
 </head>
-<% SimpleDateFormat sdf=new SimpleDateFormat("MM/dd/yyyy"); %>
 <body>
 <h1>Welcome to Tomcat! Today is </h1>
+<%= (new java.util.Date()).toLocaleString()%> 
+<h1>pushed!</h1>
 </body>
 </html>
